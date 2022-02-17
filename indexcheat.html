@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Web Development Cheat sheet
+        </title>
+        <link rel="stylesheet" type="text/css" href="stylecheat.css">
+    </head>
+    <body>
+        <header>
+            <h1>Web Development Cheat sheet</h1>
+            <p>Created by <i>Oluwasegun Adedeji</i></p>
+            <nav>
+                <ul>
+                    <li><a href="#html-basic">HTML Basic</a></li>
+                    <li><a href="#html-sem">HTML Semantic</a></li>
+                    <li><a href="#css">CSS</a></li>
+                </ul>
+            </nav>
+            <p>You can get a more detailed use case from <a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a>. <br>
+                Visit <a href="https://codecademy.com">Codecademy</a> to Learn more</p>
+                <hr>
+        </header>
+        <main>
+            <section id="html-basic">
+                <header>
+                    <h2>Basic HTML Elements</h2>
+                </header>
+    
+                <p>This is an intro to some basic html Element type and their descriptions.</p>
+    
+                <table style="width: 100%;">
+                    <thead>
+                        <tr>
+                            <th style="width: 25%;">Element Type</th>
+                            <th style="width: 25%;">Element</th>
+                            <th style="width: 50%;">Description</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <th>Body</th>
+                            <td class="tags">&lt;body&gt;&lt;/body&gt;</td>
+                            <td><span class="tag">&lt;body&gt;</span> — is a key HTML element. Only content inside the body tag is shown.</td>
+                        </tr>
+                        <tr>
+                            <th>Headings</th>
+                            <td class="tags">&lt;h1&gt;&lt;/h1&gt;
+                                <br>&lt;h2&gt;&lt;/h2&gt;
+                                <br>&lt;h3&gt;&lt;/h3&gt;
+                                <br>&lt;h4&gt;&lt;/h4&gt;
+                                <br>&lt;h5&gt;&lt;/h5&gt;
+                                <br>&lt;h6&gt;&lt;/h6&gt;
+                            </td>
+                            <td><span class="tag">&lt;h1&gt;</span> — used for main headings. All other smaller headings are used for subheadings</td>
+                        </tr>
+                        <tr>
+                            <th rowspan="2">Displaying Text</th>
+                            <td class="tags">&lt;p&gt;&lt;/p&gt;</td>
+                            <td>Paragraphs <span class="tag">&lt;p&gt;</span> contain a block of plain text.</td>
+                        </tr>
+                        <tr>
+                            <td class="tags">&lt;span&gt;&lt;/span&gt;</td>
+                            <td><span class="tag">&lt;span&gt;</span> contains short pieces of text or other HTML. They are used to separate small pieces of content that are on the same line as other content.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th rowspan="2">Styling Text</th>
+                            <td class="tags">&lt;em&gt;&lt;/em&gt;</td>
+                            <td>The <span class="tag">&lt;em&gt;</span> tag will generally render as <em>italic </em>emphasis.</td>
+                        </tr>
+                        <tr>
+                            <td class="tags">&lt;strong&gt;&lt;/strong&gt;</td>
+                            <td>The <span class="tag">&lt;strong&gt;</span> will generally render as <strong>bold</strong> emphasis.</td>
+                        </tr>
+                        <tr>
+                            <th>Unordered List</th>
+                            <td class="tags">&lt;ul&gt;
+                                <br>&lt;li&gt;&lt;/li&gt;
+                                <br>&lt;/ul&gt;</td>
+                            <td>an unordered list tag <span class="tag">&lt;ul&gt;</span> is used to create a list of items in no particular order. An unordered list outlines individual list items with a bullet point.</td>
+                        </tr>
+                        <tr>
+                            <th>Ordered List</th>
+                            <td class="tags">&lt;ol&gt;
+                                <br>&lt;li&gt;&lt;/li&gt;
+                                <br>&lt;/ol&gt;</td>
+                            <td>Ordered lists <span class="tag">&lt;ol&gt;</span> are like unordered lists, except that each list item is numbered.</td>
+                        </tr>
+                        
+                        <tr>
+                            <th>Line breaks</th>
+                            <td class="tags">&lt;br&gt;</td>
+                            <td>The line break element is used for breaking a line of for a block of text.</td>
+                        </tr>
+                        <tr>
+                            <th>Images</th>
+                            <td class="tags">&lt;img src=""/&gt;</td>
+                            <td>The <span class="tag">&lt;img&gt;</span> tag allows you to add an image to a web page. Most elements require both opening and closing tags, but the <span class="tag">&lt;img&gt;</span>tag is a self-closing tag. It requires a src attribute with a link to the image source.</td>
+                        </tr>
+                        <tr>
+                            <th>Videos</th>
+                            <td class="tags">&lt;video&gt;&lt;/video&gt;</td>
+                            <td>The <span class="tag">&lt;video&gt;</span> tag allows you to add a video to a web page. It requires a src attribute with a link to the video source.</td>
+                        </tr>
+                    </tbody>
+                    
+                </table>
+            </section>
+    
+            <section id="html-sem">
+                <header>
+                    <h2>Semantic HTML</h2>
+                </header>
+    
+                <p>
+    
+                </p>
+    
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Element Type</th>
+                            <th style="width: 30%;">Element</th>
+                            <th style="width: 50%;">Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Header</th>
+                            <td class="tags">&lt;header&gt;&lt;/header&gt;</td>
+                            <td>A <span class="tag">&lt;header&gt;</span> is a container usually for either navigational links or introductory content containing <span class="tag">&lt;h1&lt;</span> to <span class="tag">&gt;h6&lt;</span> headings. It can also hold the <span class="tag">&lt;nav&gt;</span> element.</td>
+                        </tr>
+                        <tr>
+                            <th>Main</th>
+                            <td class="tags">&lt;main&gt;&lt;/main&gt;</td>
+                            <td>The element <span class="tag">&lt;main&gt;</span> is used to encapsulate the dominant content within a webpage.</td>
+                        </tr>
+                        <tr>
+                            <th>Footer</th>
+                            <td class="tags">&lt;footer&gt;&lt;/footer&gt;</td>
+                            <td>The content at the bottom of the subject information is known as the footer, indicated by the <span class="tag">&lt;footer&gt;</span> element.</td>
+                        </tr>
+                        <tr>
+                            <th>Navigation Links</th>
+                            <td class="tags">&lt;nav&gt;&lt;/nav&gt;</td>
+                            <td>A <span class="tag">&lt;nav&gt;</span> is used to define a block of navigation links such as menus and tables of contents. It is important to note that <span class="tag">&lt;nav&gt;</span> can be used inside of the <span class="tag">&lt;header&gt;</span> element but can also be used on its own. </td>
+                        </tr>
+                        <tr>
+                            <th>Section</th>
+                            <td class="tags">&lt;section&gt;&lt;/section&gt;</td>
+                            <td><span class="tag">&lt;section&gt;</span> defines elements in a document, such as chapters, headings, or any other area of the document with the same theme.</td>
+                        </tr>
+                        <tr>
+                            <th>Article</th>
+                            <td class="tags">&lt;article&gt;&lt;/article&gt;</td>
+                            <td><span class="tag">&lt;article&gt;</span> holds content that makes sense on its own such as articles, blogs, comments, etc.</td>
+                        </tr>
+                        <tr>
+                            <th>Aside</th>
+                            <td class="tags">&lt;aside&gt;&lt;/aside&gt;</td>
+                            <td>The <span class="tag">&lt;aside&gt;</span> element is used to mark additional information that can enhance another element but is not required in order to understand the main content.</td>
+                        </tr>
+                        <tr>
+                            <th>Figure</th>
+                            <td class="tags">&lt;figure&gt;&lt;/figure&gt;</td>
+                            <td><span class="tag">&lt;figure&gt;</span> is an element used to encapsulate media such as an image, illustration, diagram, code snippet, etc, which is referenced in the main flow of the document. </td>
+                        </tr>
+                        <tr>
+                            <th>figure Caption</th>
+                            <td class="tags">&lt;figcaption&gt;&lt;/figcaption&gt;</td>
+                            <td><span class="tag">&lt;figcaption&gt;</span> is an element used to describe the media in the <span class="tag">&lt;figure&gt;</span> tag. Usually, <span class="tag">&lt;figcaption&gt;</span> will go inside <span class="tag">&lt;figure&gt;</span>.</td>
+                        </tr>
+                        <tr>
+                            <th>Date and Time</th>
+                            <td class="tags">&lt;time&gt;&lt;/date&gt;</td>
+                            <td>The <span class="tag">&lt;time&gt;</span> element represents either a time of day or a calendar date.</td>
+                        </tr>
+                        <tr>
+                            <th>Address</th>
+                            <td class="tags">&lt;address&gt;&lt;/address&gt;</td>
+                            <td>The <span class="tag">&lt;address&gt;</span> element is like <span class="tag">&lt;time&gt;</span> in that it does not deal with the overall structure of a document, but rather embellishes the parent <span class="tag">&lt;article&gt;</span> or <span class="tag">&lt;body&gt;</span>element with some metadata.</td>
+                        </tr>
+                    </tbody>
+                        
+                </table>
+            </section>
+
+            <section>
+                <header>
+                    <h2>Semantic HTML Drawing</h2>
+                </header>
+
+                <div class="drawing">
+                    <div class="content">
+                        <div class="header">
+                            <h1>&lt;header&gt;</h1>
+                            <p>It holds content like Logo, Menu(Navigation bar) and introductory content like owner information</p>
+                        </div>
+            
+                        <div class="nav">
+                            <h1>&lt;nav&gt;</h1>
+                            <p>It is used for major navigation links like Menu</p>
+                        </div>
+            
+                        <div class="section">
+                            <h1>&lt;section&gt;</h1>
+                            <p>It holds content that makes sense on its own such as articles, blogs, comments, etc</p>
+                        </div>
+            
+                        <div class="wrapper">
+                            <div class="main">
+                                <h1>&lt;main&gt;</h1>
+                                <p>It holds content that makes sense on its own such as articles, blogs, comments, etc.</p>
+                                <div class="article">
+                                    <h1>&lt;article&gt;</h1>
+                                    <p>It holds content that makes sense on its own such as articles, blogs, comments, etc.</p>
+                                    <div class="figure">
+                                        <h1>&lt;figure&gt;</h1>
+                                        <p>It holds content like media files</p>
+                                        <div class="figcaption">
+                                            <h1>&lt;figure&gt;</h1>
+                                            <p>It describes media content in the figure tag.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                
+                                <div class="article">
+                                    <h1>&lt;article&gt;</h1>
+                                    <p>It holds content that makes sense on its own such as articles, blogs, comments, etc.</p>
+                                    <div class="figure">
+                                        <h1>&lt;figure&gt;</h1>
+                                        <p>It holds content like media files</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="aside">
+                                <h1>&lt;aside&gt;</h1>
+                                <p>It element is used to mark additional information that can enhance another element but is not required in order to understand the main content.</p>
+                            </div>
+                        </div>
+            
+                        <div class="footer">
+                            <h1>&lt;footer&gt;</h1>
+                            <p>The content at the bottom of the subject information is known as the footer. Content like back to quicklinks, top and copywrite</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <footer>
+                <p>
+                    Created as a project in the Frontend
+                    <br>
+                    Engineer Course on <a href="https://codecademy.com" class="link">Codecademy</a>
+                    <br>
+                    By Oluwasegun Adedeji
+                </p>
+            </footer>
+        </main>
+        
+    </body>
+</html>
