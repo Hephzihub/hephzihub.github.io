@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <style>
+            * {
+                padding: 0;
+                margin: 0;
+                scroll-behavior: smooth;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            header {
+                height: 100vh;
+                background-color: #000;
+                color: #fff;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+            }
+
+            header h1 {
+                font-size: 50px;
+                font-weight: 300;
+            }
+
+            header p {
+                width: 50%;
+                font-size: 25px;
+            }
+
+            .achievement {
+                display: flex;
+                margin: 30px;
+                align-items: center;
+            }
+
+            .achievement ul {
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+
+            .achievement ul p {
+                margin-top: 10px;
+            }
+
+            .achievement div {
+                width: 50%;
+            }
+
+            .achievement div img {
+                width: 100%;
+                border-radius: 10%;
+            }
+
+            .quote {
+                background-color: #000;
+                color: #fff;
+                text-align: center;
+                padding: 40px 50px;
+                font-size: 25px;
+            }
+
+            footer {
+                text-align: center;
+                background-color: rgb(67, 67, 67);
+                color: #fff;
+                padding: 20px 50px;
+            }
+
+            @media screen and (max-width: 980px) {
+
+                header {
+                    height: 50vh;
+                }
+
+                header p {
+                    width: 70%;
+                }
+
+                .achievement {
+                    flex-direction: column-reverse;
+                    gap: 30px;
+                }
+
+                .achievement ul, .achievement div {
+                    width: fit-content;
+                }
+
+                .achievement ul {
+                    gap: 20px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <header class="heading">
+            <h1>JIMI DISU</h1>
+            <p>A Seasoned Media Analyst whose analysis on Political and Social Topics has helped shaped the views of a lot of Nigerians</p>
+        </header>
+
+        <main>
+            <section class="achievement">
+    
+                <ul>
+                    <li>
+                        <strong>University of Lagos</strong>
+                        <p>He Graduated from The University of Lagos(UNILAG)</p>
+                    </li>
+                    <li>
+                        <strong>Daily Times</strong>
+                        <p>He started his journalism career before he got admission into the university</p>
+                    </li>
+                    <li>
+                        <strong>The PUNCH</strong>
+                        <p>He was an assistant editor at The PUNCH</p>
+                    </li>
+                    <li>
+                        <strong>VANGUARD NEWSPAPERS</strong>
+                        <p>Business editor at VANGUARD NEWSPAPERS</p>
+                    </li>
+                    <li>
+                        <strong>Lever Brothers</strong>
+                        <p>Senior Manager and Head Corporate Affairs</p>
+                    </li>
+                    <li>
+                        <strong>Media consultant</strong>
+                        <p>He was media consultant to blue chip companies like TOTAL NIGERIA PLC,CRUSADER INSURANCE, HUNTLEIGH HEALTHCARE LTD, PHILLIPS PROJECT CENTRE, COCA COLA ,WORLD TRADE CENTRE, WAMCO, INDUSTRIAL GASES etc</p>
+                    </li>
+                    <li>
+                        <strong>Marketing Director</strong>
+                        <p>He was was the Marketing Director of the COMPASS NEWSPAPERS and later 234NEXT</p>
+                    </li>
+                    <li>
+                        <strong>DIAMOND AWARD FOR MEDIA EXCELLENCE (DAME)</strong>
+                        <p>He has also been a judge for over ten years in the famed DIAMOND AWARD FOR MEDIA EXCELLENCE (DAME), which is the foremost annual award organ for media practitioners</p>
+                    </li>
+                    <li>
+                        <strong>Classic FM</strong>
+                        <p>
+                            He was a resident analyst on FRONT PAGE NEWS on Classic FM, broadcast weekdays at 7am. He also anchored a discussion program every Sunday on Classic FM at 2pm
+                        </p>
+                    </li>
+                    <li>
+                        <strong>Nigeria Info 99.3</strong>
+                        <p>He currently analyses news and developments on Nigeria Info 99.3 Tuesdays to Fridays and also host the programme <q>Discourse with Jimi Disu</q> every Saturday at 8am. He also runs Daily Digest, a news magazine program on the same station at 9am Tuesday to Friday every week.</p>
+                    </li>
+                    <li>
+                        <strong>Inspiration</strong>
+                        <p>He gets his inspiration from GOD,WOLE SOYINKA, FELA ANIKULAPO KUTI, SOBO SOWEMIMO SAN!</p>
+                    </li>
+                </ul>
+                <div>
+                    <figure>
+                        <img src="jd2.jpg" alt="Jimi-Disu">
+                        <figcaption style="text-align: center;">Jimi Disu At Nigeria Info 99.3.</figcaption>
+                    </figure>
+                </div>
+            </section>
+            <section class="quote">
+                <blockquote>
+                    I believe I am a clear headed, well rounded journalist who wants to contribute to making our society a better place to live in. I have been in this struggle for long and I know that even if it doesn’t happen in my lifetime, Nigeria will be a great country again.
+                </blockquote>
+                <p>- Jimi Disu</p>
+            </section>
+        </main>
+        <footer>
+            <p><small>The content of this website is mostly copied from Jimi Disu's social media handle and blog. Original credits goes to the respective authors.</small></p>
+        </footer>
+    </body>
+</html>
